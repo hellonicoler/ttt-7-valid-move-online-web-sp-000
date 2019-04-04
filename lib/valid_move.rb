@@ -4,7 +4,6 @@ if board[index.between?(0, 8)]
   true
 elsif position_taken?(board, index)
   false
-false
 else
   true
 end

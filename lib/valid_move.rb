@@ -5,7 +5,7 @@ if position_taken?(board, index)
 elsif board[index] != index.between?(0, 8)
   false
 elsif board[index] == index.between?(0, 8)
-  false
+  true
 end
 end
 

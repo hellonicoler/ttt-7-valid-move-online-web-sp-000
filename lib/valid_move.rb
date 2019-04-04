@@ -4,7 +4,7 @@ if position_taken?(board, index)
   false
 elsif board[index] != index.between?(0, 8)
   false
-else board[index] == !position_taken?(board, index) && index.between?(0, 8)
+else board[index] == index.between?(0, 8)
   true
 end
 end

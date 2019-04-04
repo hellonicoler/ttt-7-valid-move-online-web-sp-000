@@ -2,8 +2,10 @@
 def valid_move?(board, index)
 if !position_taken?(board, index)
   true
-elsif board[index] == index.between?(0, 9)
+elsif board[index] == index.between?(0, 8)
   true
+elsif board[index] != index.betwen?(0,8)
+  false
 else
   false
 end
